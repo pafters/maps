@@ -1,0 +1,48 @@
+.footer {
+    padding-top: 4dvh;
+    position: relative;
+    left: 0;
+    width: 100%;
+    min-height: 20dvh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(102, 33, 112, .38) 0, rgba(102, 33, 112, 0) 100%), rgba(0, 0, 0, .8);
+}
+
+.city-block {
+    width: 20dvw;
+    /* Устанавливаем ширину блока в 1/3 экрана с небольшим отступом */
+    margin: 10px;
+    /* Добавляем внешний отступ между блоками */
+    box-sizing: border-box;
+    /* Учитываем padding и border в ширине блока */
+    display: flex;
+    flex-direction: column;
+    /* Располагаем внутренние элементы в столбец */
+}
+
+.city {
+    width: fit-content;
+    color: #fff;
+    padding: 0.5dvw;
+    margin: 0.1dvw 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.city:hover {
+    color: #d0a3d8;
+}
+
+.first-letter {
+    color: #d0a3d8;
+    font-weight: bold;
+}
+
+.groups-container {
+    width: 68.02%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}

@@ -1,0 +1,166 @@
+.tour {
+    position: absolute;
+    left: 18.5dvw;
+    margin-top: 2.5dvw;
+}
+
+.save-button {
+    position: fixed;
+    top: 12dvh;
+    right: 8dvw;
+    width: 3dvw;
+    border-radius: 0.5dvw !important;
+}
+
+.save-button:hover {
+    content: url('../assets/save-active.png');
+}
+
+.view-state-button {
+    position: fixed;
+    top: 22dvh;
+    right: 8dvw;
+    width: 3dvw;
+    border-radius: 0.5dvw !important;
+}
+
+.view:hover {
+    content: url('../assets/view-active.png');
+}
+
+.edit:hover {
+    content: url('../assets/edit-icon-active.png');
+}
+
+.tour input {
+    border-radius: 0.2dvw;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1dvh;
+    margin-bottom: 10px;
+
+}
+
+.tour textarea {
+    font-size: 1.25dvw;
+}
+
+.tour button {
+    border-radius: 5dvw;
+    font-size: 1.5dvw;
+    padding-left: 1dvw;
+    padding-right: 1dvw;
+}
+
+.tour-info {
+    width: 80dvw;
+}
+
+.tour-main-info {
+    width: 42dvw;
+}
+
+.avatar {
+    border-radius: 2dvw;
+    width: 15dvw;
+    height: 15dvw;
+    background-size: cover;
+    /* Масштабирование изображения, чтобы оно полностью покрывало блок */
+    background-position: center;
+    /* Центрирование изображения */
+}
+
+.gallery {
+    width: 45dvw;
+    height: 25dvw;
+    background-color: rgb(232, 232, 232);
+    background-size: cover;
+    /* Масштабирование изображения, чтобы оно полностью покрывало блок */
+    background-position: center;
+}
+
+.tour-info {
+    display: flex;
+    /* Использование flexbox */
+    align-items: flex-start;
+    /* Выравнивание дочерних элементов по верхнему краю */
+    gap: 20px;
+    text-wrap: wrap;
+    /* Отступ между блоками внутри контейнера */
+}
+
+/* Стили для блока с обложкой */
+
+/* Стили для блока с галереей */
+.gallery-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.gallery-container button {
+    border-radius: 5dvw;
+}
+
+button {
+    background: #ae1111;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 2dvw;
+    cursor: pointer;
+}
+
+.tour-name {
+    font-size: 2.5dvw;
+}
+
+.description,
+.tour-price,
+.tour-location,
+.price-icon {
+    font-size: 1.5dvw;
+    width: fit-content;
+}
+
+.price-icon,
+.tour-price {
+    color: #ae1111;
+}
+
+.description,
+.tour-location {
+    font-size: 16px;
+}
+
+.arrow {
+    width: 5dvw;
+}
+
+.left-arrow {
+    padding-left: 2dvw;
+}
+
+.right-arrow {
+    padding-left: 2dvw;
+    width: 5dvw;
+    transform: scale(-1, 1);
+}
+
+.arrow:hover {
+    content: url('../assets/arrow-active.png');
+}
+
+.delete {
+    position: absolute;
+    width: 4dvw;
+    background-color: rgb(247, 247, 250);
+    border-radius: 4dvw;
+}
+
+.delete:hover {
+    content: url('../assets/delete-active.png');
+}

@@ -1,0 +1,38 @@
+.interactive-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.interactive-container select {
+  padding: 8px;
+  margin-top: -10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.interactive-container select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.interactive-container input[type='text'] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.interactive-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

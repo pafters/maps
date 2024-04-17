@@ -1,0 +1,81 @@
+.admin-container {
+    padding-top: 8dvh;
+}
+
+.admin-container .edit-container {
+    position: fixed;
+    width: 48dvw;
+    padding: 2dvw;
+    margin-left: 25dvw;
+    margin-top: -25dvh;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.921);
+    border: 0.5dvw #ff6666 solid;
+}
+
+.admin-container h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    background-color: #ff6666;
+    color: white;
+}
+
+.admin-container .adminPanel {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container button {
+    background-color: #ff6666;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.25dvw;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.admin-container button :hover {
+    background-color: #ee5e5e;
+}
+
+
+.admin-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-container table th,
+.admin-container table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-container table th {
+    background-color: #ffcc66;
+}
+
+.admin-container table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.admin-container td button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}

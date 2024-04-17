@@ -1,0 +1,77 @@
+#info {
+    position: relative;
+    /* Позиционирование относительно родительского элемента */
+    z-index: 1;
+    /* Даем элементу приоритет по z-index, чтобы он перекрывал карту */
+    background-color: #fff;
+    /* Цвет фона для лучшей видимости */
+    padding: 20px;
+    margin-top: 2dvh;
+    border-radius: 0.25dvw;
+    /* Поля внутри элемента */
+}
+
+#info button {
+    border-radius: 5dvw;
+    font-size: 2dvw;
+}
+
+#info select {
+    width: 90%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+#info select option {
+    padding: 8px;
+}
+
+#info select:focus {
+    outline: none;
+    border-color: #8b0000;
+}
+
+#info a {
+    text-decoration: none;
+    /* Убираем подчеркивание у ссылок */
+    color: #333;
+    /* Цвет текста */
+}
+
+#info a:hover {
+    text-decoration: underline;
+    /* Добавляем подчеркивание при наведении */
+}
+
+#info .tour-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#info .tour-image {
+    /* Указать путь к изображению */
+    width: 10vw;
+    /* Ширина блока изображения */
+    height: 10vw;
+    /* Высота блока изображения */
+    background-size: cover;
+    border-radius: 1dvw;
+    /* Установить расположение фона */
+    margin-right: 10px;
+    /* Отступ справа */
+}
+
+#info .tour-details {
+    flex: 1;
+    /* Растягиваем блок на всю доступную ширину */
+}
+
+#info .tour-details p {
+    font-size: 1.5dvw;
+    margin: 0;
+    /* Убираем отступы для абзацев */
+}

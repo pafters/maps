@@ -1,0 +1,31 @@
+.search-container input[type='text'] {
+    padding: 1dvh 0.2dvw 1dvh 1dvw;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 98%;
+}
+
+.search-container select {
+    padding: 1dvh 1dvw;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.search-container select option {
+    padding: 4px;
+}
+
+.search-container select:focus,
+.search-container input[type='text']:focus {
+    outline: none;
+    border-color: #8b0000;
+}
+
+.search-container select:hover,
+.search-container input[type='text']:hover {
+    border-color: #8b0000;
+}
